@@ -39,7 +39,7 @@ class Student extends Person{
     listsSubjects(){
         const myArr =[];
         this.favSubjects.forEach(function(item){
-            return myArr.push(item);
+            myArr.push(item);
         })
         console.log(myArr.join(", "));
     }
